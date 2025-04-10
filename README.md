@@ -1,4 +1,4 @@
-In Silico Discovery of NDM-1 Metallo-β-Lactamase Inhibitors for Klebsiella pneumoniae
+﻿In Silico Discovery of NDM-1 Metallo-β-Lactamase Inhibitors for Klebsiella pneumoniae
 
 Overview
 Antibiotic resistance poses a significant global health threat, and the emergence of New Delhi Metallo-β-Lactamase (NDM-1) in Klebsiella pneumoniae has rendered many β-lactam antibiotics ineffective. This project aims to identify potential inhibitors of NDM-1 using computational approaches, including molecular docking, ADMET analysis, and molecular dynamics (MD) simulations.
@@ -16,18 +16,18 @@ Methodology
 - Standard ligands (Penicillin, Benzyl Penicillin, Mercaptopurine, Ampicillin, Sulfonamide, etc.) were retrieved from the *PubChem* database.
 - Sulfonamide derivatives (~1400 molecules) were filtered using Lipinski’s and Veber’s rules.
 
-2. Molecular Docking
+1. Molecular Docking
 - Protein preparation and docking studies were conducted using AutoDock Vina in PyRx.
 - Sulfonamide showed promising inhibitory activity against NDM-1.
 - Virtual screening of ~1400 sulfonamide derivatives led to the identification of 60 top hits.
 
-3. ADMET Studies
+2. ADMET Studies
 - ADMET properties were analyzed using ADMETLab 2.0 and Protox-II.
 - Two promising candidates were identified:
   - (3Z)-N-hydroxypenta-1,3-diene-2-sulfonamide (PubChem CID: 118156306)
   - N-hydroxyfuran-2-sulfonamide (PubChem CID: 46175386)
 
-4. Molecular Dynamics Simulations
+3. Molecular Dynamics Simulations
 - Conducted for 100 ns using *GROMACS 5.0.4*.
 - RMSD, RMSF, Rg, and SASA plots confirmed the stability of the identified complexes.
 
