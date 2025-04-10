@@ -16,18 +16,18 @@ Methodology
 - Standard ligands (Penicillin, Benzyl Penicillin, Mercaptopurine, Ampicillin, Sulfonamide, etc.) were retrieved from the *PubChem* database.
 - Sulfonamide derivatives (~1400 molecules) were filtered using Lipinski’s and Veber’s rules.
 
-1. Molecular Docking
+2. Molecular Docking
 - Protein preparation and docking studies were conducted using AutoDock Vina in PyRx.
 - Sulfonamide showed promising inhibitory activity against NDM-1.
 - Virtual screening of ~1400 sulfonamide derivatives led to the identification of 60 top hits.
 
-2. ADMET Studies
+3. ADMET Studies
 - ADMET properties were analyzed using ADMETLab 2.0 and Protox-II.
 - Two promising candidates were identified:
   - (3Z)-N-hydroxypenta-1,3-diene-2-sulfonamide (PubChem CID: 118156306)
   - N-hydroxyfuran-2-sulfonamide (PubChem CID: 46175386)
 
-3. Molecular Dynamics Simulations
+4. Molecular Dynamics Simulations
 - Conducted for 100 ns using *GROMACS 5.0.4*.
 - RMSD, RMSF, Rg, and SASA plots confirmed the stability of the identified complexes.
 
